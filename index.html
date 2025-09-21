@@ -66,7 +66,7 @@
     <br>
     <p></p>
     <p>
-      We introduce CHIME, a chiplet-based heterogeneous near-memory accelerator that integrates monolithic 3D DRAM and RRAM, orchestrated by a co-designed mapping framework. On FastVLM and MobileVLM, CHIME delivers up to 54× speedup, 246× energy efficiency gains, and 69.2× higher throughput than prior PIM accelerators, while further outperforming a DRAM-only baseline by 2.4× performance.
+      We introduce CHIME, a chiplet-based heterogeneous near-memory accelerator that integrates monolithic 3D DRAM and RRAM. DRAM supplies low-latency bandwidth for attention, while RRAM offers dense, non-volatile storage for weights and FFN. My contribution includes proposing the mapping and scheduling methods and developing the simulator for performance evaluation.
     </p>
   </td>
 </tr>
@@ -88,7 +88,7 @@
     <br>
     <p></p>
     <p>
-      We propose RAPID-Graph, a co-designed PIM system with algorithm, architecture, and device optimizations. A recursion-aware partitioner enables in-place Floyd-Warshall and Min-Plus execution within digital PIM arrays, while a 2.5D stack integrates PCM compute dies, logic, scratchpad, and external NVM for scalable storage. On OGBN-Products, RAPID-Graph achieves 5.8× speedup and 1186× energy efficiency over GPU clusters, surpasses prior PIM accelerators by 8.3×/104×, and outperforms NVIDIA H100 by up to 42.8×/392×.
+      We propose RAPID-Graph, a co-designed PIM system with algorithm, architecture, and device optimizations. A recursion-aware partitioner enables in-place Floyd-Warshall and Min-Plus execution within digital PIM arrays, while a 2.5D stack integrates PCM compute dies, logic, scratchpad, and external NVM for scalable storage. My contibution includes designing and synthesizing the RTL using Synopsys Design Compiler with a 40nm CMOS PDK at 500MHz, including custom permutation unit, min-comparator tree, and controller.
     </p>
   </td>
 </tr>
