@@ -47,55 +47,54 @@
               </td>
             </tr>
 
-
-
-    <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
+<tr onmouseover="bolt3d_start()" onmouseout="bolt3d_stop()" style="background:#ffffd0;">
+  <!-- 左侧缩略图：统一 padding & 宽度 -->
+  <td style="padding:2.5%;width:27%;vertical-align:middle;">
+    <div style="position:relative;width:100%;max-width:260px;aspect-ratio:4/3;overflow:hidden;border-radius:8px;">
+      <!-- 覆盖层：视频 -->
+      <div id="bolt3d_image" style="position:absolute;inset:0;opacity:0;transition:opacity .2s;">
+        <video style="width:100%;height:100%;object-fit:cover;" muted autoplay loop playsinline>
           <source src="images/bolt3d.mp4" type="video/mp4">
           Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- 底层：封面图 -->
+      <img src="images/bolt3d.jpg" alt="Bolt3D teaser" style="width:100%;height:100%;object-fit:cover;display:block;">
+    </div>
 
-          </video></div>
-          <img src='images/bolt3d.jpg' width="160">
-        </div>
-        <script type="text/javascript">
-          function bolt3d_start() {
-            document.getElementById('bolt3d_image').style.opacity = "1";
-          }
+    <script>
+      function bolt3d_start(){ document.getElementById('bolt3d_image').style.opacity = '1'; }
+      function bolt3d_stop(){  document.getElementById('bolt3d_image').style.opacity = '0'; }
+      bolt3d_stop();
+    </script>
+  </td>
 
-          function bolt3d_stop() {
-            document.getElementById('bolt3d_image').style.opacity = "0";
-          }
-          bolt3d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://szymanowiczs.github.io/bolt3d">
-          <span class="papertitle">Bolt3D: Generating 3D Scenes in Seconds</span>
-        </a>
-        <br>
-        <a href="https://szymanowiczs.github.io/">Stanislaw Szymanowicz</a>,
-        <a href="https://jasonyzhang.com">Jason Y. Zhang</a>,
-        <a href="https://pratulsrinivasan.github.io">Pratul Srinivasan</a>,
-        <a href="https://ruiqigao.github.io">Ruiqi Gao</a>,
-        <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
-        <a href="https://holynski.org">Aleksander Holynski</a>,
-        <a href="https://ricardomartinbrualla.com">Ricardo Martin-Brualla</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://henzler.github.io">Philipp Henzler</a>
-        <br>
-        <em>ICCV</em>, 2025
-        <br>
-        <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
-        /
-        <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a>
-        <p></p>
-        <p>
-		By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
-        </p>
-      </td>
-    </tr>			
+  <!-- 右侧文字：统一 padding & 宽度 -->
+  <td style="padding:2.5%;width:73%;vertical-align:middle;">
+    <a href="https://szymanowiczs.github.io/bolt3d">
+      <span class="papertitle">Bolt3D: Generating 3D Scenes in Seconds</span>
+    </a>
+    <br>
+    <a href="https://szymanowiczs.github.io/">Stanislaw Szymanowicz</a>,
+    <a href="https://jasonyzhang.com">Jason Y. Zhang</a>,
+    <a href="https://pratulsrinivasan.github.io">Pratul Srinivasan</a>,
+    <a href="https://ruiqigao.github.io">Ruiqi Gao</a>,
+    <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
+    <a href="https://holynski.org">Aleksander Holynski</a>,
+    <a href="https://ricardomartinbrualla.com">Ricardo Martin-Brualla</a>,
+    <strong>Jonathan T. Barron</strong>,
+    <a href="https://henzler.github.io">Philipp Henzler</a>
+    <br>
+    <em>ICCV</em>, 2025
+    <br>
+    <a href="https://szymanowiczs.github.io/bolt3d">project page</a> /
+    <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a>
+    <p style="margin-top:8px;">
+      By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
+    </p>
+  </td>
+</tr>
+	
            
 <!--             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
