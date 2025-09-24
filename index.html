@@ -51,13 +51,33 @@
 			
   <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+	<tr>
+  <td style="padding:16px;width:20%;vertical-align:middle">
+    <img src="image/CHIME_DATE26.jpg" width="160" alt="Bolt3D preview">
+  </td>
+
+  <td style="padding:8px;width:80%;vertical-align:middle">
+      <span class="papertitle">Sparse-Aware LUT-based Heterogeneous Near-Memory Accelerator for Edge Multimodal LLM</span>
+    </a>
+    <br>
+    Runyang Tian, Yanru Chen, Weihong Xu, Tajana Rosing
+    <br>
+    <em>TCAD</em>
+    <br>
+    <p></p>
+    <p>
+      We propose a heterogeneous near-memory accelerator designed for edge multimodal LLMs. It integrates a Progressive Token Elimination Unit (PTEU) to dynamically prune low-value tokens, and a Sparse-Aware LUT-based Processing Engine (SAL-PE) that avoids redundant operations through mixed-precision lookup and activation sparsity detection. By combining 3D DRAM for latency- and energy-sensitive attention with RRAM for dense long-term storage.
+    </p>
+  </td>
+</tr>
+
     <tr>
   <td style="padding:16px;width:20%;vertical-align:middle">
     <img src="image/CHIME_DATE26.jpg" width="160" alt="Bolt3D preview">
   </td>
 
   <td style="padding:8px;width:80%;vertical-align:middle">
-      <span class="papertitle">CHIME: Chiplet-based Heterogeneous Near-Memory Acceleration for Edge Multimodal LLM Inference</span>
+      <span class="papertitle">Heterogeneous Near-Memory Accelerator for Edge Multimodal LLM</span>
     </a>
     <br>
     Yanru Chen*, Runyang Tian*, Yue Pan, Zheyu Li, Weihong Xu, Tajana Rosing
@@ -66,7 +86,7 @@
     <br>
     <p></p>
     <p>
-      We propose CHIME, a chiplet-based heterogeneous near-memory accelerator that integrates monolithic 3D DRAM and RRAM. DRAM supplies low-latency bandwidth for attention, while RRAM offers dense, non-volatile storage for weights and FFN. My contribution includes proposing the mapping and scheduling methods and developing the simulator for performance evaluation.
+      We propose a chiplet-based heterogeneous near-memory accelerator that integrates monolithic 3D DRAM and RRAM. DRAM supplies low-latency bandwidth for attention, while RRAM offers dense, non-volatile storage for weights and FFN. My contribution includes proposing the mapping and scheduling methods and developing the simulator for performance evaluation.
     </p>
   </td>
 </tr>
@@ -79,7 +99,7 @@
   </td>
 
   <td style="padding:8px;width:80%;vertical-align:middle">
-      <span class="papertitle">RAPID-Graph: Recursive All-Pairs Shortest Paths Using Processing-in-Memory for Dynamic Programming on Graphs</span>
+      <span class="papertitle">Recursive All-Pairs Shortest Paths Using Processing-in-Memory for Dynamic Programming on Graphs</span>
     </a>
     <br>
     Yanru Chen, Zheyu Li, Keming Fan, Runyang Tian, John Hsu, Minxuan Zhou, Tajana Rosing
@@ -88,7 +108,7 @@
     <br>
     <p></p>
     <p>
-      We propose RAPID-Graph, a PIM system with algorithm, architecture optimizations. A recursion-aware partitioner enables in-place Floyd-Warshall and Min-Plus execution within digital PIM arrays. My contibution includes designing and synthesizing the RTL using Synopsys Design Compiler with a 40nm CMOS PDK at 500MHz, including custom permutation unit, min-comparator tree, and controller.
+      We propose a PIM system with algorithm, architecture optimizations. A recursion-aware partitioner enables in-place Floyd-Warshall and Min-Plus execution within digital PIM arrays. My contibution includes designing and synthesizing the RTL using Synopsys Design Compiler with a 40nm CMOS PDK at 500MHz, including custom permutation unit, min-comparator tree, and controller.
     </p>
   </td>
 </tr>
@@ -110,7 +130,7 @@
     Runyang Tian, Zichen Huang, Zhuohao Xu, Yiming Li, Mingu Kang
     <p></p>
     <p>
-      Designed and verified a dual-core NPU, including MAC core, FIFO, SRAM, and SFU modules supporting convolution, matrix multiplication, normalization, and ReLU operators. Implemented cross-clock FIFOs, control for weight/output-stationary modes, and optimized PPA through pipelining, multi-cycle paths, and clock gating. Completed synthesis and PnR in TSMC 65nm CMOS technology.
+    We designed and verified a dual-core NPU, including MAC core, FIFO, SRAM, and SFU modules supporting convolution, matrix multiplication, normalization, and ReLU operators. Implemented cross-clock FIFOs, control for weight/output-stationary modes, and optimized PPA through pipelining, multi-cycle paths, and clock gating. Completed synthesis and PnR in TSMC 65nm CMOS technology.
     </p>
   </td>
 </tr>
@@ -127,7 +147,7 @@
     Runyang Tian, Zichen Huang, Drew Hall
     <p></p>
     <p>
-      Designed the schematic and layout applying dummy devices, common centroid pattern, and power shielding. Developed the SAR controller in Verilog, and completed synthesis and PnR. Designed pad ring with dummy fill and decoupling capacitors to meet density requirements.
+      We esigned the schematic and layout applying dummy devices, common centroid pattern, and power shielding. Developed the SAR controller in Verilog, and completed synthesis and PnR. Designed pad ring with dummy fill and decoupling capacitors to meet density requirements.
     </p>
   </td>
 </tr>	
