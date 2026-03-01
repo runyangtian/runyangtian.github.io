@@ -5,7 +5,7 @@
 <div class='paper-box-text' markdown="1">
 
 [CHIME: Chiplet-based Heterogeneous Near-Memory Acceleration for Edge Multimodal LLM Inference](https://arxiv.org/abs/2601.19908) \\
-Yanru Chen<sup>*</sup>, Runyang Tian<sup>*</sup>, Yue Pan, Zheyu Li, Weihong Xu, Tajana Rosing.
+Yanru Chen\*, Runyang Tian\*, Yue Pan, Zheyu Li, Weihong Xu, Tajana Rosing.
 
 [**Project**](https://speechresearch.github.io/fastspeech/) <strong><span class='show_paper_citations' data='4FA6C0AAAAAJ:qjMakFHDy7sC'></span></strong>
 
@@ -15,6 +15,6 @@ Yanru Chen<sup>*</sup>, Runyang Tian<sup>*</sup>, Yue Pan, Zheyu Li, Weihong Xu,
 </div>
 </div>
 
-- ``DAC 2026`` [HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash](https://arxiv.org/abs/2511.18234)\\ Quanling Zhao<sup>*</sup>, Yanru Chen<sup>*</sup>, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing.
+- ``DAC 2026`` [HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash](https://arxiv.org/abs/2511.18234)\\ Quanling Zhao\*, Yanru Chen\*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing.
 - ``DATE 2026`` [RAPID-Graph: Recursive All-Pairs Shortest Paths Using Processing-in-Memory for Dynamic Programming on Graphs](https://arxiv.org/abs/2601.19907)\\
-Yanru Chen<sup>*</sup>, Zheyu Li<sup>*</sup>, Keming Fan, Runyang Tian, John Hsu, Weihong Xu, Minxuan Zhou, Tajana Rosing.
+Yanru Chen\*, Zheyu Li\*, Keming Fan, Runyang Tian, John Hsu, Weihong Xu, Minxuan Zhou, Tajana Rosing.
