@@ -13,6 +13,6 @@ Yanru Chen\*, Runyang Tian\*, Yue Pan, Zheyu Li, Weihong Xu, Tajana Rosing.
 </div>
 </div>
 
-- ``DAC 2026`` [HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash](https://arxiv.org/abs/2511.18234)\\ Quanling Zhao\*, Yanru Chen\*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing.
-- ``DATE 2026`` [RAPID-Graph: Recursive All-Pairs Shortest Paths Using Processing-in-Memory for Dynamic Programming on Graphs](https://arxiv.org/abs/2601.19907)\\
+- ``DAC 2026`` [HDDB: Efficient In-Storage SQL Database Search Using Hyperdimensional Computing on Ferroelectric NAND Flash](https://arxiv.org/abs/2511.18234) \\ Quanling Zhao\*, Yanru Chen\*, Runyang Tian, Sumukh Pinge, Weihong Xu, Augusto Vega, Steven Holmes, Saransh Gupta, Tajana Rosing.
+- ``DATE 2026`` [RAPID-Graph: Recursive All-Pairs Shortest Paths Using Processing-in-Memory for Dynamic Programming on Graphs](https://arxiv.org/abs/2601.19907) \\
 Yanru Chen\*, Zheyu Li\*, Keming Fan, Runyang Tian, John Hsu, Weihong Xu, Minxuan Zhou, Tajana Rosing.
