@@ -1,15 +1,15 @@
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2026</div><img src='images/fs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2026</div><img src='images/CHIME.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CHIME: Chiplet-based Heterogeneous Near-Memory Acceleration for Edge Multimodal LLM Inference](https://arxiv.org/abs/2601.19908) \\
 Yanru Chen\*, Runyang Tian\*, Yue Pan, Zheyu Li, Weihong Xu, Tajana Rosing.
 
-- FastSpeech is the first fully parallel end-to-end speech synthesis model.
-- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![](https://img.shields.io/github/stars/espnet/espnet?style=social)](https://github.com/espnet/espnet). Our work are promoted by more than 20 media and forums, such as [机器之心](https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ)、[InfoQ](https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu).
-- **Industry Impact**: FastSpeech has been deployed in [Microsoft Azure TTS service](https://techcommunity.microsoft.com/t5/azure-ai/neural-text-to-speech-extends-support-to-15-more-languages-with/ba-p/1505911) and supports 49 more languages with state-of-the-art AI quality. It was also shown as a text-to-speech system acceleration example in [NVIDIA GTC2020](https://resources.nvidia.com/events/GTC2020s21420).
+- Proposed a heterogeneous architecture that integrates M3D DRAM (low-latency, high-endurance) and 3D RRAM (high-density, low-refresh-energy) chiplets.
+- Proposed a mapping and scheduling framework for heterogeneous near-memory kernels to fully use the complementary benefits of both memories.
+- Improved the energy effciency 246x and speedup 53x compared with Jetson Orin NX. 69.2x higher throughput than the SOTA.
 </div>
 </div>
 
