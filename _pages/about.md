@@ -19,4 +19,6 @@ redirect_from:
 
 {% include_relative includes/honers.md %}
 
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=f12vk1R_ZgYsUPc444sXcAsX4FTqSipuN1z1TGW620c&cl=ffffff&w=a"></script>
+
 If you like the template of this homepage, welcome to star and fork my open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
