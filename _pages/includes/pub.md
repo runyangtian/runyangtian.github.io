@@ -7,7 +7,7 @@
 [CHIME: Chiplet-based Heterogeneous Near-Memory Acceleration for Edge Multimodal LLM Inference](https://arxiv.org/abs/2601.19908) \\
 Yanru Chen\*, Runyang Tian\*, Yue Pan, Zheyu Li, Weihong Xu, Tajana Rosing.
 
-- Proposed a heterogeneous architecture that integrates M3D DRAM (low-latency, high-endurance) and 3D RRAM (high-density, low-refresh-energy) chiplets.
+- Proposed a heterogeneous architecture that integrates M3D DRAM (low-latency, high-endurance) and M3D RRAM (high-density, low-refresh-energy) chiplets.
 - Proposed a mapping and scheduling framework for heterogeneous near-memory kernels to fully use the complementary benefits of both memories.
 - Improved the energy effciency 246x and speedup 53x compared with Jetson Orin NX. 69.2x higher throughput than the SOTA.
 </div>
