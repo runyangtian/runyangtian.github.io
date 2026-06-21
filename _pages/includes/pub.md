@@ -1,5 +1,16 @@
 
 # 📝 Publication
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISLPED 2026</div><img src='images/PALUTE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PALUTE: Processing-In-Memory Acceleration via Lookup Table for Edge LLM Inference](https://arxiv.org/abs/2606.08891) \\
+Runyang Tian, Yanru Chen, Weihong Xu, Tajana Rosing.
+
+- Proposed a LUT-based processing-in-memory accelerator using monolithic 3D DRAM for efficient low-bit edge LLM inference.
+- Developed an in-DRAM LUT query mechanism and near-memory LUT generator to reduce dequantization, GEMM, nonlinear-operation, and data-movement overheads.
+- Achieved 1,264 TPS at 0.16 W, improving energy efficiency by 12.8× over CHIME and 1.6× over FIGLUT, with 2.0× higher area efficiency than PIMPAL under W4A4 inference.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2026</div><img src='images/CHIME.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
