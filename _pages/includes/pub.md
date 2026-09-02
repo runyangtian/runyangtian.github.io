@@ -3,7 +3,7 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISLPED 2026</div><img src='images/PALUTE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[PALUTE: Processing-In-Memory Acceleration via Lookup Table for Edge LLM Inference](https://arxiv.org/abs/2606.08891) \\
+[PALUTE: Processing-In-Memory Acceleration via Lookup Table for Edge LLM Inference](https://dl.acm.org/doi/10.1145/3816440.3818590) \\
 Runyang Tian, Yanru Chen, Weihong Xu, Tajana Rosing.
 
 - Proposed a LUT-based processing-in-memory accelerator using monolithic 3D DRAM for efficient low-bit edge LLM inference.
